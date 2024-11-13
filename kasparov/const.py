@@ -1,13 +1,13 @@
-#Tamaño de la ventana
+# Window size
 WIDTH = 800
 HEIGHT = 800
 
-#Tamaño del tablero
+#Board size
 ROWS = 8
 COLS = 8
 QUAD_SIZE = WIDTH // COLS
 
-#Colores
+#Colors
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 LIGHT_GREEN = (234, 235, 200)
