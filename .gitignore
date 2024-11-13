@@ -5,8 +5,10 @@ __pycache__/
 # Ignore VSCode folder
 .vscode/
 
-# Ignore common directories
+# Ignore additional files and directories
+lib64
 bin/
 lib/
 include/
 lib64/
+pyvenv.cfg
