@@ -34,6 +34,7 @@ class Dragger:
         self.dragging = True
     
     def undrag_piece(self):
-        self.piece.set_texture()
+        if self.piece is not None:
+            self.piece.set_texture()
         self.piece = None
         self.dragging = False
